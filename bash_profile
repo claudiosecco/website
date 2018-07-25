@@ -1,5 +1,6 @@
 # set PATH so it includes user's private bin directories
 PATH="$HOME/bin:$HOME/.local/bin:$PATH"
+alias lr='ls -hartl'
 
 # use following commands to configure prompt and tab completion
 # $ curl -o ~/.git-prompt.sh       -OL cdn.learnenough.com/git-prompt.sh
