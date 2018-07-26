@@ -1,9 +1,11 @@
 # set PATH so it includes user's private bin directories
 PATH="$HOME/bin:$HOME/.local/bin:$PATH"
+alias get='curl -OL'
+alias g='grep -i'
 alias lr='ls -hartl'
 
 # use following commands to configure prompt and tab completion
-# $ curl -o ~/.git-prompt.sh       -OL cdn.learnenough.com/git-prompt.sh
+# $ curl -o ~/.git-prompt.sh -OL cdn.learnenough.com/git-prompt.sh
 # $ curl -o ~/.git-completion.bash -OL cdn.learnenough.com/git-completion.bash
 # $ chmod +x ~/.git-prompt.sh
 # $ chmod +x ~/.git-completion.bash
