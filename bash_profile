@@ -5,8 +5,8 @@ alias g='grep -i'
 alias lr='ls -hartl'
 
 # use following commands to configure prompt and tab completion
-# $ curl -o ~/.git-prompt.sh -OL cdn.learnenough.com/git-prompt.sh
-# $ curl -o ~/.git-completion.bash -OL cdn.learnenough.com/git-completion.bash
+# $ curl -o ~/.git-prompt.sh -OL https://claudiosecco.github.io/website/.git-prompt.sh
+# $ curl -o ~/.git-completion.bash -OL https://claudiosecco.github.io/website/.git-completion.bash
 # $ chmod +x ~/.git-prompt.sh
 # $ chmod +x ~/.git-completion.bash
 
