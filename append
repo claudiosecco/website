@@ -3,7 +3,9 @@
 # copy this file to ~/bin directory
 # use chmod +x ~/bin/append
 # check with $ which append
-# use this command to append registers from file $2 (from line $1) to file $3
+# use this way: $ append [initial_line] [origin_file] [target_file]
+# use this command to append registers from file [origin_file] (from line
+# [initial_line]) to file [target_file]
 # it's a simple command, but if you type > instead of >> you will probably get
 # into trouble
 # exemple: $ append 2 ~/sample_dir/new_registers.csv populated_table.csv
