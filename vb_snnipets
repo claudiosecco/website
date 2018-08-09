@@ -1,0 +1,46 @@
+Sub add_query()
+
+  Dim sPeriod As String   'exemple to use strig parameters in PowerQuery Formula
+  Dim sFormula As String
+
+  sPeriod = {expression as string}
+  ' sFormula must be adjusted to the specific case
+  sFormula = "let" & Chr(13) & "" & Chr(10) & "    Source = Csv.Document(File.Contents(""{complete_path}""),[Delimiter="","", Columns=6, Encoding=1252, QuoteStyle=QuoteStyle.None])," & Chr(13) & "" & Chr(10) & "    #""Promoted Headers"" = Table.PromoteHeaders(Source, [PromoteAllScalars=true])," & Chr(13) & "" & Chr(10) & "    #""Changed Type"" = Table.TransformColumnTypes(#""Promoted Headers"",{{""id"", Int64.Type}," & _
+    " {""invoice_id"", type text}, {""scheduled_date"", type date}, {""executed_date"", type date}, {""client_share"", type number}, {""advance_fee"", type number}})," & Chr(13) & "" & Chr(10) & "    #""Added Custom"" = Table.AddColumn(#""Changed Type"", ""period"", each Text.Combine({Text.From(Date.Year([executed_date])),""/"",Text.From(Date.Month([executed_date]))}))," & Chr(13) & "" & Chr(10) & "    #""Filtered Rows"" = Ta" & _
+    "ble.SelectRows(#""Added Custom"", each ([period] = " & Chr(34) & sPeriod & Chr(34) & "))" & Chr(13) & "" & Chr(10) & "in" & Chr(13) & "" & Chr(10) & "    #""Filtered Rows"""
+
+    ' if query already exists, delete it first
+    ActiveWorkbook.Queries.Item("advancements").Delete
+
+    ' if table already populated in worksheet, ClearContents first
+    Worksheets("advancements").Select
+    Cells(1, 1).Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Range(Selection, Selection.End(xlToRight)).Select
+    Selection.ClearContents
+    Cells(1, 1).Select
+
+    ActiveWorkbook.Queries.Add Name:="advancements", Formula:=sFormula
+
+    With ActiveSheet.ListObjects.Add(SourceType:=0, Source:= _
+      ' line bellow may need some adjustments to specific case
+      "OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=advancements;Extended Properties=""""" _
+      , Destination:=Range("$A$1")).QueryTable
+      .CommandType = xlCmdSql
+      .CommandText = Array("SELECT * FROM [advancements]")
+      .RowNumbers = False
+      .FillAdjacentFormulas = False
+      .PreserveFormatting = True
+      .RefreshOnFileOpen = False
+      .BackgroundQuery = True
+      .RefreshStyle = xlInsertDeleteCells
+      .SavePassword = False
+      .SaveData = True
+      .AdjustColumnWidth = True
+      .RefreshPeriod = 0
+      .PreserveColumnInfo = True
+      .ListObject.DisplayName = "advancements"
+      .Refresh BackgroundQuery:=False
+    End With
+
+End Sub
