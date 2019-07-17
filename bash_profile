@@ -2,7 +2,8 @@
 PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 alias get='curl -OL'
 alias g='grep -i'
-alias lr='ls -hartl'
+alias ls='ls --color=auto'
+lias lr='ls -hartl'
 
 # use following commands to configure prompt and tab completion
 # $ curl -o ~/.git-prompt.sh -OL https://claudiosecco.github.io/website/.git-prompt.sh
