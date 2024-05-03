@@ -1,0 +1,12 @@
+title: claudioSecco 
+email: claudiosecco@hotmail.com.br
+description: >- 
+  My personal site with finance, coding, music and other topics
+baseurl: "/claudioSecco-personal-page"
+url: "https://claudiosecco.github.io"
+github_username: claudiosecco
+
+# Build settings
+#theme: minima
+#plugins:
+#  - jekyll-feed
