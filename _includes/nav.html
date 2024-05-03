@@ -21,7 +21,10 @@
 <div class="container-fluid p-0">
     <div class="text-bg-dark border-top border-bottom border-5 border-secondary">
       <div class="container py-1">
-        <small class="m-1"><a href="#" class="link-primary">Home</a> / Sobre</small>
+        <small class="m-1"><a href="#" class="link-primary">Home</a>
+          {% if page.level >= 1 %} | {% endif %}
+          {{ page.title }}
+        </small>
       </div>
     </div>
 </div>
