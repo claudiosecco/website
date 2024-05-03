@@ -1,0 +1,5 @@
+{% if page.title == title %}
+  {% assign class = 'class="nav-link active" aria-current="page"' %}
+{% else %}
+  {% assign class = 'class="nav-link"' %}
+{% endif %}
