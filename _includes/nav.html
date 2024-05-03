@@ -8,9 +8,22 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="{{ site.baseurl }}/">Home</a>
+            
+            {% if page.title == "Home" %}
+              {% assign class = 'class="nav-link active" aria-current="page"' %}
+            {% else %}
+              {% assign class = 'class="nav-link"' %}
+            {% endif %}
+            <a {{ class }} href="{{ site.baseurl }}/">Home</a>
+
+            {% if page.title == "Sobre" %}
+              {% assign class = 'class="nav-link active" aria-current="page"' %}
+            {% else %}
+              {% assign class = 'class="nav-link"' %}
+            {% endif %}
+            <a {{ class }} href="{{ site.baseurl }}/about">Sobre</a>
+
             <a class="nav-link" href="#">Blog</a>
-            <a class="nav-link" href="{{ site.baseurl }}/about">Sobre</a>
             <a class="nav-link disabled" aria-disabled="true">Disabled</a>
           </div>
         </div>
@@ -18,12 +31,12 @@
     </nav>  
   </header>
 </div>
-<div class="container-fluid p-0">
+<!-- option for a active-page-path-bar - needs page.level variable in pages front matter -->
+  <div class="container-fluid p-0">
     <div class="text-bg-dark border-top border-bottom border-5 border-secondary">
       <div class="container py-1">
-        <small class="m-1"><a href="{{ site.baseurl }}/" class="link-primary">Home</a>
-          {% if page.level >= 1 %} | {% endif %}
-          {{ page.title }}
+        <small class="mx-1"><a href="{{ site.baseurl }}/" class="link-primary">Home</a>
+          {% if page.level >= 1 %} | {{ page.title }} {% endif %}
         </small>
       </div>
     </div>
