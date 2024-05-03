@@ -8,17 +8,18 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            
+
             {% assign title = "Home" %}
-            {% include get-navlink-item-class %}
-            <a {{ class }} href="{{ site.baseurl }}/">{{ title }}</a>
+            <a {% include get-navlink-item-class %} href="{{ site.baseurl }}/">{{ title }}</a>
 
             {% assign title = "Sobre" %}
-            {% include get-navlink-item-class %}
-            <a {{ class }} href="{{ site.baseurl }}/about">{{ title }}</a>
+            <a {% include get-navlink-item-class %} href="{{ site.baseurl }}/about">{{ title }}</a>
 
             <a class="nav-link" href="#">Blog</a>
             <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+
+            {% assign title = nil %}
+
           </div>
         </div>
       </div>
