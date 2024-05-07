@@ -9,7 +9,7 @@ level: 1
 <ul>
   {% for post in site.posts %}
     <li>
-      <h2><a href="{{ base.url }}{{ post.url }}">{{ post.title }}</a></h2>
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
       {{ post.excerpt }}
     </li>
   {% endfor %}
