@@ -6,6 +6,10 @@ baseurl: "/claudioSecco-personal-page"
 url: "https://claudiosecco.github.io"
 github_username: claudiosecco
 
+collections:
+  authors:
+    output: true
+
 # Build settings
 #plugins:
 #  - jekyll-feed
