@@ -1,5 +1,9 @@
-{% if page.title == item.title %}
-  class="nav-link active" aria-current="page"
+{% if item.disabled %}
+  class="nav-link disabled" aria-disabled="true"
 {% else %}
-  class="nav-link"
+  {% if page.title == item.title %}
+    class="nav-link active" aria-current="page"
+  {% else %}
+    class="nav-link"
+  {% endif %}
 {% endif %}

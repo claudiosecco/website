@@ -1,8 +1,12 @@
 - title: Home
   link: /
+  disabled: false
 - title: Blog
   link: /blog
+  disabled: false
 - title: Equipe
   link: /staff
+  disabled: false
 - title: Sobre
   link: /about
+  disabled: false
