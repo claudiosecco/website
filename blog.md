@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Blog
-level: 1
 ---
 
 <h1>Latest Posts</h1>
