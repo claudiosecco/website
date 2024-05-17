@@ -13,7 +13,7 @@
           <div class="navbar-nav">
 
             {% for item in site.data.navbar %}
-              <a {% include get-navlink-item-class %} href="{{ site.baseurl }}{{ item. link }}">{{ item.title }}</a>
+              <a {% include get-navlink-item-class %} href="{{ site.baseurl }}{{ item.link }}">{{ item.short }}</a>
             {% endfor %}
             {% assign title = nil %}
 
