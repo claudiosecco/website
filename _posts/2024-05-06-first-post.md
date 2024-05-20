@@ -2,6 +2,7 @@
 layout: post
 title: My first post with Jekyll
 author: Claudio Secco
+language: pt-BR
 ---
 
 Este é meu primeiro post que estou fazendo durante meu aprendizado da ferramenta Jekyll para desenvolvimento de sites.

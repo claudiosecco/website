@@ -6,11 +6,11 @@
   short: Blog
   link: /blog
   disabled: false
-- title: Equipe
-  short: Equipe
+- title: Team
+  short: Team
   link: /staff
   disabled: false
-- title: Sobre
-  short: Sobre
+- title: About
+  short: About
   link: /about
   disabled: false
