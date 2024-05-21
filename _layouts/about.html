@@ -1,12 +1,15 @@
 ---
 layout: default
-title: Home
-language: en
 ---
 <div class="container-lg px-0">
-  <div class="row justify-content-start align-items-center">
+  <div class="row justify-content-start align-items-start">
     <div class="col-md-auto text-start d-none d-xl-block">
-      <img class="img-thumbnail" width="300px" src="{{ site.baseurl }}/assets/images/claudio-secco.jpg" alt="Claudio Secco">
+      <img class="img-thumbnail" width="300px" src="{{ site.baseurl }}{{ page.image1 }}" alt="{{ page.alt_image1 }}">
+      <br>
+      {% if page.image2 == nil %}
+      {% else %}
+        <img class="img-thumbnail" width="300px" src="{{ site.baseurl }}{{ page.image2 }}" alt="{{ page.alt_image2 }}">
+      {% endif %}
     </div>
     <div class="col-md-8 text-start text-md-start">
       <p class="h2">Claudio Secco</p>
@@ -17,15 +20,10 @@ language: en
       <a target="_blank" rel="noopener noreferrer" href="https://youtube.com/clvsecco" class="link-secondary"><i class="bi bi-youtube"></i></a>
       <a target="_blank" rel="noopener noreferrer" href="mailto://claudiosecco@hotmail.com" class="link-secondary"><i class="bi bi-envelope"></i></a>
       
-      <p class="lead my-4 text-muted">Welcome to my Web Site!</p>
+      <p class="lead my-4 text-muted">{{ page.welcome_message }}</p>
       <div class="text-muted">
-        I am a seasoned finance professional with over 30 years of experience, having worked across major financial service firms, startups, and fintechs.
-        <br><br>
-        Beyond finance, I am a dedicated musician, finding joy and inspiration in the art of music. 
-        Additionally, I am an avid programmer enthusiastic, constantly exploring new technologies and pushing the boundaries of innovation.
-        <br><br>
-        Join me on this journey as I blend my diverse interests and skills to create meaningful experiences and drive positive change in the world.
+        {{ content }}
       </div>
-  </div>
+    </div>
   </div>
 </div>
