@@ -27,7 +27,7 @@ To run this website locally, follow these steps:
 2. Install Jekyll by following the installation instructions [here](https://jekyllrb.com/docs/installation/).
 3. Install Bootstrap by following the installation instructions [here](https://getbootstrap.com/docs/5.1/getting-started/introduction/).
 4. Once Jekyll and Bootstrap are installed, navigate to the project directory and run `bundle install` to install any other dependencies.
-5. Finally, run `bundle exec jekyll serve` to start the development server.
+5. Finally, run `bundle exec jekyll serve --baseurl ''` to start the development server.
 6. You can now view the website locally by visiting `http://localhost:4000` in your web browser.
 
 ## Usage
