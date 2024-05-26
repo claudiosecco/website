@@ -12,7 +12,7 @@ All source code in this repository is available under the [GPLv3](LICENSE) Licen
 
 ## Description
 
-Currently, it's a work in progress and not yet ready for proper publication. However, you can still check out the current version of the website [here](https://claudiosecco.github.io/claudioSecco-personal-page/).
+Currently, it's a work in progress and not yet ready for proper publication. However, you can still check out the current version of the website [here](https://claudiosecco.github.io/website/).
 
 ## Tools Used
 
@@ -39,7 +39,7 @@ Feel free to use this website as a reference or template for your own personal w
 
 If you'd like to contribute to this project, please follow these guidelines:
 
-- Check the [issues](https://github.com/ClaudioSecco/claudioSecco-personal-page/issues) page for existing issues or open a new one to report a bug or suggest a feature.
+- Check the [issues](https://github.com/ClaudioSecco/website/issues) page for existing issues or open a new one to report a bug or suggest a feature.
 - Fork the repository, make your changes, and submit a pull request.
 
 ## Acknowledgements
