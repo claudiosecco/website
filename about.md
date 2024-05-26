@@ -2,9 +2,9 @@
 layout: about
 title: About
 language: en
-image1: "/assets/images/claudio-secco-morro-do-cristo.jpg"
+image1: "/assets/images/claudio-secco-morro-do-cristo-300-401.jpg"
 alt_image1: Claudio Secco no Morro do Cristo em Salvador/BA, Brasil
-image2: "/assets/images/claudio-secco3.jpg"
+image2: "/assets/images/claudio-secco3-300-300.jpg"
 alt_image2: Claudio Secco
 welcome_message: About Me
 ---

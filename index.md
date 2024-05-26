@@ -2,7 +2,7 @@
 layout: about
 title: Home
 language: en
-image1: "/assets/images/claudio-secco.jpg"
+image1: "/assets/images/claudio-secco-300-453.png"
 alt_image1: Claudio Secco
 welcome_message: Welcome to my Web Site!
 ---
