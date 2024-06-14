@@ -10,7 +10,7 @@
   short: Team
   link: /staff
   disabled: false
-- title: About
-  short: About
+- title: Sobre
+  short: Sobre
   link: /about
   disabled: false
