@@ -1,19 +1,22 @@
 ---
 layout: about
 title: About
-language: en
+language: pr-BR
 image1: "/assets/images/claudio-secco-morro-do-cristo-300-401.jpg"
 alt_image1: Claudio Secco no Morro do Cristo em Salvador/BA, Brasil
 image2: "/assets/images/claudio-secco3-300-300.jpg"
 alt_image2: Claudio Secco
-welcome_message: About Me
+welcome_message: Sobre mim
+english_version_link: "/about-en"
 ---
-With over 30 years of experience in the finance industry, I've had the privilege of working in various capacities within large financial service firms, startups, and fintech companies. Throughout my career, I've gained invaluable insights into the intricacies of financial markets, investment strategies, and risk management. My passion for finance is unwavering, and I continually strive to stay abreast of the latest trends and developments in the ever-evolving landscape of global finance.
+Com mais de 30 anos de experiência em finanças corporativas, tive o privilégio de trabalhar em várias funções dentro de grandes empresas de serviços financeiros e indústrias, startups e fintechs. Durante a minha carreira, adquiri insights valiosos sobre as complexidades dos mercados financeiros, administração financeira e gestão de riscos.
 
-Beyond my professional endeavors, I am a devoted musician, finding solace and inspiration in the melodies that fill the air. Music has always been a fundamental part of my life, providing me with a creative outlet and a means of expression that transcends language barriers.
+Além do meu trabalho profissional, sou um músico atuante, encontrando conforto e inspiração com a arte. A música sempre foi uma parte fundamental da minha vida, me proporcionando uma forma criativa de expressão que transcende barreiras linguísticas.
 
-In addition to my love for music, I am also an enthusiastic programmer. Exploring the world of coding allows me to merge my analytical mindset with my penchant for problem-solving, enabling me to create innovative solutions and explore new technological frontiers.
+Por último, mas não menos importante, também sou um programador entusiasta. Explorar o mundo da programação me permite unir meu pensamento analítico com minha inclinação para a resolução de problemas, possibilitando criar soluções inovadoras e explorar novas fronteiras tecnológicas.
 
-Whether it's analyzing financial data, composing melodies, or writing code, I approach each endeavor with dedication, passion, and a relentless pursuit of excellence. I believe in the power of continuous learning and growth, and I am excited to embark on new challenges and opportunities that lie ahead.
+Este website é, na verdade, um dos meus projetos de programação. Através dele, espero compartilhar meus conhecimentos acumulados ao longo dos anos e contribuir com a comunidade. Aqui, você encontrará conteúdos sobre finanças, música e programação, refletindo as diversas paixões que guiam minha trajetória.
 
-Thank you for visiting my page, and I look forward to connecting with you!
+Seja analisando dados financeiros, compondo melodias ou escrevendo código, abordo cada tarefa com dedicação, paixão e uma busca incansável pela excelência. Acredito no poder do aprendizado e crescimento contínuos e estou empolgado para enfrentar novos desafios e oportunidades que estão por vir.
+
+Obrigado por visitar minha página e espero poder me conectar com você!

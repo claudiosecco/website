@@ -22,9 +22,9 @@ layout: default
       
       <p class="lead my-2 text-muted">{{ page.welcome_message }}</p>
       
-      {% if page.english_version_link %}
+      {% if page.english_version_link != nil %}
         <div style="text-align: right;">
-          <a href="{{ site.baseurl }}/index-en" style="font-size: smaller;">English Version</a>
+          <a href="{{ site.baseurl }}{{ page.english_version_link }}" style="font-size: smaller;">English Version</a>
         </div>
       {% endif %}
       

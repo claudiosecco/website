@@ -6,7 +6,7 @@ residence: São Paulo/SP | Aracaju/SE
 image1: "/assets/images/claudio-secco-300-453.png"
 alt_image1: Claudio Secco
 welcome_message: Bem-vindo ao Meu Site!
-english_version_link: true
+english_version_link: "/index-en"
 ---
 **Sobre mim**
 
