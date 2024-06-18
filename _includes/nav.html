@@ -9,12 +9,17 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-
           {% for item in site.data.navbar %}
             <a {% include get-navlink-item-class %} href="{{ site.baseurl }}{{ item.link }}">{{ item.short }}</a>
           {% endfor %}
           {% assign title = nil %}
-
+        </div>
+        <div class="navbar-nav ms-auto d-none d-lg-flex">
+          <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/claudio.secco" class="nav-link link-secondary"><i class="bi bi-instagram"></i></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/claudiosecco" class="nav-link link-secondary"><i class="bi bi-linkedin"></i></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/claudiosecco" class="nav-link link-secondary"><i class="bi bi-github"></i></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://youtube.com/clvsecco" class="nav-link link-secondary"><i class="bi bi-youtube"></i></a>
+          <a target="_blank" rel="noopener noreferrer" href="mailto:claudiosecco@hotmail.com" class="nav-link link-secondary"><i class="bi bi-envelope"></i></a>
         </div>
       </div>
     </div>
