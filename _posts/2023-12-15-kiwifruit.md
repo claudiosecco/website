@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Kiwi
-author: Ted
 language: en
 ---
 

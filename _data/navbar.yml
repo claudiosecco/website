@@ -6,9 +6,9 @@
   short: Blog
   link: /blog
   disabled: false
-- title: Team
-  short: Team
-  link: /staff
+- title: Contato
+  short: Contato
+  link: /contact
   disabled: false
 - title: Sobre
   short: Sobre

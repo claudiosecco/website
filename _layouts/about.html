@@ -12,16 +12,16 @@ layout: default
       {% endif %}
     </div>
     <div class="col-md-8 text-start text-md-start">
-      <p class="h2">Claudio Secco</p>
-      <p class="h5 text-muted">{{ page.residence }}</p>
-      <p class="lead my-2 text-muted">{{ page.welcome_message }}</p>
       
       {% if page.english_version_link != nil %}
         <div style="text-align: right;">
-          <a href="{{ site.baseurl }}{{ page.english_version_link }}" style="font-size: smaller;">English Version</a>
+          <a href="{{ site.baseurl }}{{ page.english_version_link }}" class="small-link">English version</a>
         </div>
       {% endif %}
       
+      <p class="h2">Claudio Secco</p>
+      <p class="h5 text-muted">{{ page.residence }}</p>
+      <p class="lead my-2 text-muted">{{ page.welcome_message }}</p>
       <div class="text-muted">
         {{ content }}
       </div>

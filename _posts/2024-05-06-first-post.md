@@ -1,7 +1,6 @@
 ---
 layout: post
 title: My first post with Jekyll
-author: Claudio Secco
 language: pt-BR
 ---
 
