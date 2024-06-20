@@ -3,7 +3,7 @@ layout: about
 title: Home
 language: en
 residence: São Paulo, SP, Brazil
-image1: "/assets/images/claudio-secco-300-453.png"
+image1: "https://ik.imagekit.io/tlltgjrgy/tr:w-300/eu/claudio-secco.jpg?updatedAt=1718847991556"
 alt_image1: Claudio Secco
 welcome_message: Welcome to my Web Site!
 ---

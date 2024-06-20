@@ -2,7 +2,7 @@
 layout: about
 title: Contact
 language: pr-BR
-image1: "/assets/images/claudio-secco2-300w.jpg"
+image1: "https://ik.imagekit.io/tlltgjrgy/eu/claudio-secco2-300w.jpg?updatedAt=1718848970671"
 alt_image1: Claudio Secco
 image2:
 alt_image2:

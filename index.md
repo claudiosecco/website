@@ -3,7 +3,7 @@ layout: about
 title: Home
 language: pt-BR
 residence: São Paulo/SP | Aracaju/SE
-image1: "/assets/images/claudio-secco-300-453.png"
+image1: "https://ik.imagekit.io/tlltgjrgy/tr:w-300/eu/claudio-secco.jpg?updatedAt=1718847991556"
 alt_image1: Claudio Secco
 welcome_message: Bem-vindo ao Meu Site!
 english_version_link: "/index-en"
